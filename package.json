@@ -1,0 +1,25 @@
+{
+  "name": "open-ai-telegram-js-main",
+  "version": "1.0.0",
+  "description": "Этот проект создает бота для мессенджера Telegram, который интегрирован с OpenAI API для обращения к модели GPT-4. Вот как работает код: # Описание",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "sls deploy",
+    "logs": "sls logs --function hello -t"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.33.0",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "serverless": "^3.38.0",
+    "serverless-dotenv-plugin": "^6.0.0"
+  }
+}
